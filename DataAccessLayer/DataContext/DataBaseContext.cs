@@ -35,7 +35,8 @@ namespace DataAccessLayer.DataContext
         //}
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Rent> Rents { get; set; }
-        public DbSet<Book> Books { get; set; }
+
+        //public DbSet<Rent> Rents { get; set; }
+        //public DbSet<Book> Books { get; set; }
     }
 }

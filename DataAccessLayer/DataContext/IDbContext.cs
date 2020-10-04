@@ -9,7 +9,7 @@ namespace DataAccessLayer.DataContext
     interface IDbContext : IDisposable
     {
         DbSet<User> Users { get; set; }
-        DbSet<Rent> Rents { get; set; }
-        DbSet<Book> Books { get; set; }
+       // DbSet<Rent> Rents { get; set; }
+       // DbSet<Book> Books { get; set; }
     }
 }

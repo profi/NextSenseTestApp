@@ -21,6 +21,6 @@ namespace Entities.Models
         public string Country { get; set; }
         public string Adress { get; set; }
         public GenderTypeEnum Gender { get; set; }
-        public ICollection<Rent> Rents { get; set; }
+        //public ICollection<Rent> Rents { get; set; }
     }
 }
